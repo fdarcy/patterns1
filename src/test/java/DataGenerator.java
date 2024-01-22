@@ -1,8 +1,6 @@
 
 import lombok.Value;
 import com.github.javafaker.Faker;
-import org.junit.jupiter.api.BeforeEach;
-
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
@@ -38,7 +36,7 @@ public class DataGenerator {
 
     public static String generatePhone(String locale) {
         var faker = new Faker(new Locale(locale));
-        return faker.phoneNumber().phoneNumber;
+        return faker.phoneNumber().phoneNumber();
     }
 
     public static class Registration {
