@@ -1,1 +1,1 @@
-[README.md](..%2Fselenide%2FREADME.md)
+[![Build status](https://ci.appveyor.com/api/projects/status/gy2hb92cvu0y32tx/branch/main?svg=true)](https://ci.appveyor.com/project/fdarcy/patterns1/branch/main)
